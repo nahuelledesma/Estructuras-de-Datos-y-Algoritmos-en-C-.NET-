@@ -1,0 +1,51 @@
+## Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.ide.*
+*.svclog
+
+# Build artifacts
+bin/
+obj/
+artifacts/
+publish/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of PackageReference
+packages/
+.packages/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Runtime files
+*.pid
+*.seed
+
+# Resharper
+*.ReSharper*
+*.DotSettings.user
+
+# JetBrains Rider
+/.idea/
+
+# Temporary files
+*.tmp
+~$*
+
+# Rider cache
+.idea/
